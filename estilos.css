@@ -1,0 +1,299 @@
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: antiquewhite !important;
+}
+body{
+    background-color: #0d6efd;
+    padding-top: 4rem;
+    font-family:'Ghibli', sans-serif !important; 
+    color: aliceblue !important;                                           
+}
+
+section{
+    display: inline-block;
+}
+
+hr{
+  border-style:solid;
+  border-width: 3px;
+}
+
+.arriba{
+    color: yellow;
+}
+
+a:hover{
+    color: yellow !important;
+}
+
+.filmografia a {
+    color: white !important;
+}
+.filmografia a:hover{
+    color: yellowgreen !important;
+}
+
+/* estilos galeria de fotos */
+
+#gyf {
+    /* margin: 0; */
+    height: 100vh;
+    background-color: #0d6efd;
+    /* box-sizing: border-box; */
+    font-family: 'Arial', sans-serif;
+}
+
+.galeria {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.imggaleria {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.item {
+    width: 100%;
+    margin:0.23rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.links{
+    color: antiquewhite !important;
+}
+
+#contenedor {
+    position: fixed;
+    max-width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#principal {
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#caption {
+    color: white; 
+    font-size: 18px; 
+    text-align: center; 
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#botonsalida {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width:480px) {
+    .item {
+        width: 48%;
+        margin: 5px;
+    }
+}
+
+@media (min-width:768px) {
+    .item {
+        width: 32%;
+    }
+}
+
+@media (min-width:1024px) {
+    .item {
+        width: 22%;
+    }
+}
+
+#filmografia{
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box ;
+    border: 2px solid white;
+}
+
+.galery{
+    text-align: center;
+}
+
+.fotostecnicas{
+    width: 30vw;
+    align-self: center;
+}
+
+.fotocontacto{
+    width: 60vw;
+    align-self: center !important;
+}
+
+.introduccion {
+
+	color: aliceblue;
+	width: auto;
+	padding: 1.5em;
+	margin: 1em;
+	text-align: center;
+	display: block;
+	border: 2px solid white;
+	font-size: 14px;
+
+}
+
+.intro{
+    text-align: center;
+}
+
+.columnas {
+	display: flex;
+	margin: 2px;
+}
+
+.alumno{
+	width: 50%;
+	margin: auto;
+	border: 1px dashed;
+}
+
+#contenedor{
+	padding: 2em;
+	margin: 0 auto;
+	border: 4px solid rgb(255, 255, 255);
+	box-sizing: border-box;
+}
+
+#contenedorinfo{
+	background: rgba(255, 251, 251, 0.945);
+	text-align: center;
+	width: 95%;
+	margin: auto;
+	border: 2px solid;
+	align-content: center;
+}
+
+.row{
+    text-align: center;
+    color: aliceblue;
+}
+
+footer{
+    color: yellow;
+    text-align: center;
+}
+
+/* Estilos generales de la página de contacto */
+#contacto {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#subs {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;  /* Cambia la dirección del eje principal a columna para que los elementos estén uno debajo del otro */
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    #subs {
+        padding: 20px; /* Añadir espacio alrededor del contenido en pantallas más pequeñas */
+    }
+}
+
+/* Estilos para los elementos de formulario */
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    color: #111;
+    width: 100px;
+    display: inline-block;
+}
+
+/* Estilos para el botón de envío */
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #111;
+}
+
+/* Estilos para el contenedor principal */
+#container {
+    border-bottom: 5px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+/* Estilos para campos inválidos */
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    input[type=text],
+    input[type=email],
+    input[type=password],
+    select,
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+}

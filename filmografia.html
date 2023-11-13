@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filmografia</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/ghibli" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<nav class="navbar navbar-dark bg-info fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bg-info" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                     
+                    <li class="nav-item">
+                        <button id="toggleButton" class="btn btn-primary">Cambiar Fondo</button>
+                    </li>
+
+<script>
+  document.addEventListener("DOMContentLoaded", cambiarfondo());
+</script>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tecnicas.html">Técnicas e influencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="museosyfestivales.html">Museo y festivales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeriafotos.html">Galeria de Fotos
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bg-info" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Filmografia
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-primary">
+                            <li><a class="dropdown-item" href="filmografia.html#castillocielo">El castillo en el cielo</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#totoro">Mi vecino Totoro</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#kiki">Kiki: Entregas a domicilio</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#porco">Porco Rosso</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#mononoke">La princesa Mononoke</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#chihiro">El viaje de Chihiro</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#vagabundo">El increíble castillo vagabundo</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#ponyo">Ponyo en el acantilado</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#viento">Se levanta el viento</a></li>
+                            <li><a class="dropdown-item" href="filmografia.html#garza">El chico y la garza</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginadecontacto.html">contacto/subscripción a noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="infoalumnos.html">Informacion de alumnes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<body class="bg-primary">
+    <div class="container-fluid">
+        <header>
+        <h1>Filmografia</h1><hr>
+        <h3>Informacion sobre las peliculas mas importantes de Miyazaki</h3>
+        </header>
+    <main>
+        <section id="filmografia">
+            <ul class="filmografia">
+                <li><a  href="#castillocielo">El castillo en el cielo</a></li>
+                <li><a  href="#totoro">Mi vecino Totoro</a></li>
+                <li><a  href="#kiki">Kiki: Entregas a domicilio</a></li>
+                <li><a  href="#porco">Porco Rosso</a></li>
+                <li><a  href="#mononoke">La princesa Mononoke</a></li>
+                <li><a  href="#chihiro">El viaje de Chihiro</a></li>
+                <li><a  href="#vagabundo">El increíble castillo vagabundo</a></li>
+                <li><a  href="#ponyo">Ponyo en el acantilado</a></li>
+                <li><a  href="#viento">Se levanta el viento</a></li>
+                <li><a  href="#garza">El chico y la garza</a></li>    
+            </ul>
+        </section>
+        <section>
+            <hr><h4 id="castillocielo">El castillo en el cielo (1986)</h4><hr>
+        <article><p>La película sigue las aventuras de Pazu y Sheeta, dos jóvenes que intentarán evitar que una antigua piedra mágica caiga en manos de un grupo de agentes militares, quienes intentarán usarla para llegar a una legendaria isla flotante llamada «Laputa».</p>
+            <br>
+            <h5>Trailer
+            </h5>
+            <iframe width="70%" height="500" style="align-content: center;" src="https://www.youtube.com/embed/FWjiXOqRKhk" title="Castle in the Sky: Trailer" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article><hr>
+            <h4 id="totoro">Mi vecino Totoro (1988)</h4><hr>
+        <article>
+                <p>El filme —protagonizado por los actores Noriko Hidaka, Chika Sakamoto y Hitoshi Takagi— cuenta la historia de una familia y sus interacciones con un espíritu del bosque al que llaman «Totoro», en un Japón de la posguerra. Mi vecino Totoro ganó el premio Anime Grand Prix de Animage, el Mainichi Film Award y el Kinema Junpo Award en la categoría de «Mejor película» en 1989. También recibió un premio especial en los Blue Ribbon Awards de ese mismo año. Es el cuarto largometraje realizado por Studio Ghibli, del cual Totoro es su logotipo. Fue elegida por la revista británica Time Out como la mejor película de animación de la historia.</p>
+                <br><h5>Trailer</h5>
+                <iframe width="70%" height="500" src="https://www.youtube.com/embed/_nv94fL_IA8" title="Ghibli Fest 2023 | My Neighbor Totoro 35th Anniversary Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article><hr>
+            <h4 id="kiki">Kiki: Entregas a domicilio(1989)</h4><hr>
+        <article>
+            <p>Según la tradición de las brujas, cuando estas cumplen los trece años deben abandonar la casa de sus padres y buscar una ciudad donde sus servicios sean requeridos, y quedarse allí durante un año. De esta manera, Kiki comenzará el camino que la llevará a convertirse definitivamente en bruja.</p>
+            <br>
+            <h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/CJRJveWPPRU" title="Kiki&#39;s Delivery Service trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+            <hr><h4 id="porco">Porco Rosso (1992)</h4>
+            <hr>
+        <article>
+                <p>La película relata la historia de un piloto italiano de la Primera Guerra Mundial que por una razón desconocida queda hechizado y transformado en un ser con apariencia de cerdo. Además, se ve cómo la profesión de piloto militar es sustituida por la de cazarrecompensas que le granjea rivalidades con los piratas en pleno mar Adriático. La película desarrolló posteriormente un manga que está conformado por seis volúmenes y que fue escrito por el propio Hayao Miyazaki.</p>
+            <br>
+            <h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/QCMScfCMtQw" title="Ghibli Fest 2023 | Porco Rosso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+            <hr><h4 id="mononoke">La princesa Mononoke (1997)</h4><hr>
+        <article><p>Ambientada en un Japón del período Muromachi, se centra en la lucha entre los guardianes sobrenaturales de un bosque y los humanos que profanan sus recursos, visto por el forastero Ashitaka.</p>
+            <br><h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/4OiMOHRDs14" title="Princess Mononoke - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        </article>
+            <hr><h4 id="chihiro">El viaje de Chihiro (2001)</h4><hr>
+            <article>
+                <p>El filme cuenta la historia de una niña de diez años llamada Chihiro, quien durante una mudanza se ve atrapada en un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres, y así poder regresar a su mundo.</p><br>
+                <h5>Trailer</h5>
+                <iframe width="70%" height="500" src="https://www.youtube.com/embed/ByXuk9QqQkk" title="Spirited Away - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+            <hr><h4 id="vagabundo">El increíble castillo vagabundo (2004)</h4><hr>
+        <article>
+            <p>La película está ambientada en un reino ficticio en el cual tanto la magia como la tecnología del siglo xx están presentes. Sophie es una joven sombrerera que es víctima del hechizo de una bruja y que decide ir al castillo ambulante, lugar habitado por el mago Howl, para ver si puede encontrar una solución al maleficio.</p>
+            <br><h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/fVJT5D3WPv8" title="Howls Moving Castle Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article> 
+            <hr><h4 id="ponyo">Ponyo en el acantilado (2008)</h4><hr>
+        <article><p>La historia se centra en una criatura marina similar a un pez dorado llamada Ponyo, quien conoce y traba amistad con un niño de cinco años, Sōsuke, y desea convertirse en niña.</p>
+            <br><h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/HvddJqBYrc8" title="Ghibli Fest 2023 | Ponyo 15th Anniversary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+        <hr><h4 id="viento">Se levanta el viento (2013)</h4><hr>
+        <article>
+            <p>La película narra la vida de Jirō Horikoshi, el hombre que diseñó el avión de combate Zero, que fue usado en el ataque a Pearl Harbor durante la Guerra del Pacífico de la Segunda Guerra Mundial.</p>
+            <br><h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/RzSpDgiF5y8" title="The Wind Rises - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+            <hr><h4 id="garza">El chico y la garza (2023)</h4><hr>
+        <article>
+            <p>Mahito, un joven de 12 años, lucha por asentarse en una nueva ciudad tras la muerte de su madre. Sin embargo, cuando una garza parlante informa a Mahito de que su madre sigue viva, entra en una torre abandonada en su busca, lo que le lleva a otro mundo. El título de la película se basa en la novela de 1937, 'Kimitachi wa Dō Ikiru ka' escrita por Yoshino Genzaburō pero la película presenta una historia original que no guarda relación con la novela. Esta pelicula se estrenara a fines de 2023.</p>
+            <br><h5>Trailer</h5>
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/t5khm-VjEu4" title="THE BOY AND THE HERON | Official English Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <address>
+               <a class="arriba" href="#">Volver arriba</a>
+        </address>
+     </footer>
+    </div>
+</body>
+</html>
